@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgraound_gradient"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FireBase Crud Operations"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginStart="70dp"
+
+        android:layout_marginLeft="70dp" />
+
+    <LinearLayout
+        android:layout_width="402dp"
+        android:layout_height="699dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="0dp">
+
+        <EditText
+            android:id="@+id/documentIDTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/boarder"
+            android:hint="Document ID "
+            android:padding="15dp"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/stdIDET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/documentIDTV"
+            android:layout_marginTop="10dp"
+
+
+
+            android:background="@drawable/boarder"
+            android:hint="Student Document ID "
+            android:inputType="text"
+            android:maxLength="20"
+            android:padding="15dp"
+
+
+            android:singleLine="true"
+
+            ></EditText>
+
+        <EditText
+            android:id="@+id/stdNameET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stdNameET"
+
+            android:layout_marginTop="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/boarder"
+            android:hint="Add Student Name"
+            android:inputType="text"
+            android:maxLength="20"
+            android:padding="15dp"
+
+            android:singleLine="true"
+
+
+            android:layout_marginRight="10dp"></EditText>
+
+        <EditText
+            android:id="@+id/stdrollnoET"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/stdNameET"
+            android:layout_marginTop="10dp"
+
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/boarder"
+            android:hint="Add Student RollNumber"
+            android:inputType="text"
+            android:maxLength="20"
+            android:padding="15dp"
+            android:singleLine="true"
+
+
+            android:layout_marginRight="10dp"></EditText>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/stdNameET"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boarder"
+            android:onClick="addValues"
+            android:padding="15dp"
+            android:paddingTop="50dp"
+            android:text="Add Values"></Button>
+
+
+        <Button
+            android:id="@+id/loadNote"
+            android:layout_width="200dp"
+
+            android:layout_height="60dp"
+
+            android:layout_below="@id/save"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boarder"
+            android:onClick="showdata"
+            android:text="Show Values"></Button>
+
+        <Button
+            android:id="@+id/update"
+            android:layout_width="200dp"
+
+            android:layout_height="60dp"
+
+            android:layout_below="@id/loadNote"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boarder"
+            android:onClick="updateDocumentFieldValue"
+            android:text="UpdateValues"></Button>
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="200dp"
+
+            android:layout_height="60dp"
+
+            android:layout_below="@id/update"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/boarder"
+            android:onClick="deletecollection"
+            android:text="Delete Collection"></Button>
+
+        <TextView
+            android:id="@+id/tv_one"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_below="@id/loadNote"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:textSize="20sp"
+
+            android:layout_marginRight="25dp" />
+    </LinearLayout>
+</RelativeLayout>
