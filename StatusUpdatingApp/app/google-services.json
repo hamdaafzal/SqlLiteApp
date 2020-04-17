@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "650883664050",
+    "firebase_url": "https://statusupdatingapp-cae6f.firebaseio.com",
+    "project_id": "statusupdatingapp-cae6f",
+    "storage_bucket": "statusupdatingapp-cae6f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650883664050:android:b00cf2b348d37d6ae5e1ab",
+        "android_client_info": {
+          "package_name": "com.example.statusupdatingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650883664050-4gubql4ejjnrbpfh9cu2bbb6sk9f1pm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXmMKh_bq_OlXInXLSsSRIY-_PsC_jBtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650883664050-4gubql4ejjnrbpfh9cu2bbb6sk9f1pm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
